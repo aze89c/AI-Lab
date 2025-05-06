@@ -143,5 +143,9 @@ Now, for the for the final step, continue and have fun with your rules and condi
 
 Example, in the above example it is particularly stated that "priya is a girl and can cook". Thus, appropriate syntactical logic was written and other names were included for the list of girls. Any out of logic or rule will be displayed false as it's not added as an input.
 
+However, that's just the simple use cases and basic predefined logics, you can even perform arithmetic operations and apply complex "family tree" logic based rules and condition for further provisions. 
+
+Again, while the concepts itself are fun and intriguing, Prolog is a really old language and has lost its variety of applications, but it was and will remain an OG for the development of AI in propositional logics and logic building.
+
 */
 
