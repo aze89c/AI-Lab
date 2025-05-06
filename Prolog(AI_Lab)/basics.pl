@@ -126,3 +126,22 @@ can_cook(Aze) finds anything/someone who can cook.
 can_cook(aze) asks if a specific person/thing (aze) can cook.
 
 */
+
+/*
+To compile the GNU Prolog logic written code, primarily, it's considered a best practice to write this into the notepad and saving it with ".pl" extension. 
+
+While compiling, in GNU Prolog, again, primarily you'll need the GNU Prolog console installed, it's lightweight and without any admin related options to select, which is comparatively easier to setup. 
+
+So, to start the compilation, open the GNU Prolog console , select "File > Change Dir  > Select the folder (specific path of the file saved)". If it displays"yes", voila, you have selected the correct one(it'll display mostly a "yes" compiler reply for almost any directory change, but the problem will mostly occur in actually compiling the file which won't be available if you've saved it in any other directory)".
+
+Next, you enter your filename if the directory is read in "[]." braces, note that the "dot" operator is mandatory for the execution of any statement/rules/syntactical entry. Say, your filename was "prolog1.pl"("pl" extension for  Prolog, written in notepad and saved with the said extension), so the step would look similar or very much like:
+| ?- [prolog1].
+
+If yes, continue with the logic based statements and rules for further development and execution. Else, check again for the directory read or the incorrect filename.
+
+Now, for the for the final step, continue and have fun with your rules and conditions to be checked, verified and executed. If, in accordance with the logic, it'll return "yes", else a plain "no".
+
+Example, in the above example it is particularly stated that "priya is a girl and can cook". Thus, appropriate syntactical logic was written and other names were included for the list of girls. Any out of logic or rule will be displayed false as it's not added as an input.
+
+*/
+
