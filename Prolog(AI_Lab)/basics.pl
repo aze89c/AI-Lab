@@ -134,7 +134,7 @@ While compiling, in GNU Prolog, again, primarily you'll need the GNU Prolog cons
 
 So, to start the compilation, open the GNU Prolog console , select "File > Change Dir  > Select the folder (specific path of the file saved)". If it displays"yes", voila, you have selected the correct one(it'll display mostly a "yes" compiler reply for almost any directory change, but the problem will mostly occur in actually compiling the file which won't be available if you've saved it in any other directory)".
 
-Next, you enter your filename if the directory is read in "[]." braces, note that the "dot" operator is mandatory for the execution of any statement/rules/syntactical entry. Say, your filename was "prolog1.pl"("pl" extension for  Prolog, written in notepad and saved with the said extension), so the step would look similar or very much like:
+Next, you enter your filename, if the directory is read, in "[]." braces, note that the "dot" operator is mandatory for the execution of any statement/rules/syntactical entry. Say, your filename was "prolog1.pl"("pl" extension for  Prolog, written in notepad and saved with the said extension), so the step would look similar or very much like:
 | ?- [prolog1].
 
 If yes, continue with the logic based statements and rules for further development and execution. Else, check again for the directory read or the incorrect filename.
