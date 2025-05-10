@@ -44,43 +44,35 @@ Greedy Best First Search.
  ''' 
 
 from queue import PriorityQueue 
+
 v = 14 
 graph = [[] for i in range(v)] 
- 
-# Function For Implementing Best First Search 
-# Gives output path having lowest cost 
- 
- 
+
+# Best-First Search Function
 def best_first_search(actual_Src, target, n): 
     visited = [False] * n 
     pq = PriorityQueue() 
     pq.put((0, actual_Src)) 
     visited[actual_Src] = True 
- 
-    while pq.empty() == False: 
+
+    while not pq.empty(): 
         u = pq.get()[1] 
-# Displaying the path having lowest cost 
-        print(u, end=" ") 
+        print(u, end=" ")   # Current node in path
         if u == target: 
             break 
- 
-    for v, c in graph[u]: 
-        if visited[v] == False: 
-            visited[v] = True 
-            pq.put((c, v)) 
-            print() 
- 
-# Function for adding edges to graph 
- 
- 
+
+        for v, c in graph[u]: 
+            if not visited[v]: 
+                visited[v] = True 
+                pq.put((c, v))
+    print()  # Newline after search
+
+# Function to add undirected edges
 def addedge(x, y, heuristic): 
- 
     graph[x].append((y, heuristic)) 
     graph[y].append((x, heuristic)) 
- 
- 
-# The nodes shown in above example(by alphabets) are 
-# implemented using integers addedge(x,y,heuristic); 
+
+# Building the graph with heuristics
 addedge(0, 1, 3) 
 addedge(0, 2, 6) 
 addedge(0, 3, 5) 
@@ -94,7 +86,7 @@ addedge(8, 10, 6)
 addedge(9, 11, 1) 
 addedge(9, 12, 10) 
 addedge(9, 13, 2) 
- 
+
 source = 0 
 target = 9 
 best_first_search(source, target, v)
