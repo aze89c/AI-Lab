@@ -42,68 +42,53 @@ DISPLAY THE DATA
 from sklearn.datasets import make_classification 
 from sklearn import tree 
 from sklearn.model_selection import train_test_split 
- 
- 
-X, t = make_classification(100, 5, n_classes=2, shuffle=True, random_state=10)  
- 
-X_train, X_test, t_train, t_test = train_test_split(X, t, test_size=0.3, shuffle=True, random_state=1) 
- 
- 
- 
-model =tree.DecisionTreeClassifier() 
-model = model.fit(X_train, t_train) 
- 
- 
-predicted_value = model.predict(X_test) 
-print(predicted_value) 
- 
- 
-tree.plot_tree(model) 
- 
-zeroes = 0 
- 
-ones = 0 
- 
-for i in range(0, len(t_train)):  
- 
- if t_train[i] == 0: 
- 
- 
- 
-zeroes += 1 
- else: 
-ones += 1 
- 
 
- 
- 
- 
-print(zeroes) 
- 
-              print(ones) 
- 
- 
- 
-val = 1 - ((zeroes/70)*(zeroes/70) + (ones/70)*(ones/70)) print("Gini :", val) 
- 
- 
+# Generate a synthetic dataset
+X, t = make_classification(100, 5, n_classes=2, shuffle=True, random_state=10)  
+
+# Split the dataset into training and test sets
+X_train, X_test, t_train, t_test = train_test_split(X, t, test_size=0.3, shuffle=True, random_state=1) 
+
+# Train a Decision Tree classifier
+model = tree.DecisionTreeClassifier() 
+model = model.fit(X_train, t_train) 
+
+# Predict on the test set
+predicted_value = model.predict(X_test) 
+print("Predicted values:", predicted_value) 
+
+# Visualize the decision tree (requires matplotlib)
+tree.plot_tree(model) 
+
+# Count number of zeroes and ones in the training labels
+zeroes = 0 
+ones = 0 
+
+for i in range(len(t_train)):  
+    if t_train[i] == 0:
+        zeroes += 1 
+    else: 
+        ones += 1 
+
+print("Zeroes:", zeroes) 
+print("Ones:", ones) 
+
+# Calculate Gini index for the training set
+val = 1 - ((zeroes/70)**2 + (ones/70)**2) 
+print("Gini:", val) 
+
+# Calculate accuracy on the test set
 match = 0 
- 
-UnMatch = 0 
- 
- 
- 
-for i in range(30): 
- 
-               if predicted_value[i] ==   test[i]:  
-match += 1 
-else: 
- 
-UnMatch += 1 
- 
- 
- 
-accuracy = match/30 print("Accuracy is: ", accuracy) 
+unmatch = 0 
+
+for i in range(len(t_test)): 
+    if predicted_value[i] == t_test[i]:  
+        match += 1 
+    else: 
+        unmatch += 1 
+
+accuracy = match / len(t_test)
+print("Accuracy is:", accuracy)
  
  
 '''
