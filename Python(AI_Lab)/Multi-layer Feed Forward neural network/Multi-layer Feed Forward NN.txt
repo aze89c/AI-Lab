@@ -1,0 +1,19 @@
+4B. Multi-layer Feed Forward neural network 
+ 
+An entrance point into sophisticated neural networks, where incoming data is routed through several 
+layers of artificial neurons. Every node is linked to every neuron in the following layer, resulting in a 
+fully connected neural network. There are input and output layers, as well as several hidden levels, for a 
+total of at least three or more layers. It possesses bidirectional propagation, which means it can propagate 
+both forward and backward. 
+
+
+  Refer the image of the Neural_Network_Layers image.
+
+
+
+
+
+  Inputs are multiplied by weights and supplied into the activation function, where they are adjusted to 
+minimize loss during backpropagation. Weights are just machine-learned values from Neural Networks. 
+They modify themselves based on the gap between projected and training outcomes. Softmax is used as an 
+output layer activation function after nonlinear activation functions.
