@@ -1,0 +1,18 @@
+5.Text processing using NLTK 
+ 
+Natural Language Processing or NLP is a branch of artificial intelligence that deals with the interaction 
+between computers and humans using the natural language. The ultimate objective of NLP is to read, 
+decipher, understand, and make sense of human languages in a manner that is valuable. To this end, many 
+different models, libraries, and methods have been used to train machines to process text, understand it, 
+make predictions based on it, and even generate new text. The first step to training a model is to obtain and 
+preprocess the data. In this article, I will be going through some of the most common steps to be followed 
+with almost any dataset before you can pass it as an input to a model. 
+What is NLTK? 
+The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic 
+and statistical natural language processing for English written in the Python programming language. It 
+consists of the most common algorithms such as tokenizing, part-of-speech tagging, stemming, sentiment 
+analysis, topic segmentation, and named entity recognition. 
+# Importing modules 
+import nltk 
+ 
+ 
