@@ -1,0 +1,12 @@
+5b. Stemming and Lemmatization with NLTK 
+What is Stemming? 
+Stemming is a kind of normalization for words. It is a technique where a set of words in a sentence are converted 
+into a sequence to shorten its lookup. The words which have the same meaning but have some variation 
+according to the context or sentence are normalized. Stemming is hence a way to find the root word from 
+variations of the word. 
+NLTK provides many inbuilt stemmers such as the Porter Stemmer, Snowball Stemmer and Lancaster Stemmer. 
+ 
+ 
+ 
+ 
+ 
