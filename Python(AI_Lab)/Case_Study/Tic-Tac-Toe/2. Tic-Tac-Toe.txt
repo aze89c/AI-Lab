@@ -1,0 +1,18 @@
+2. Tic-Tac-Toe: 
+ 
+Tic-Tac-Toe, also known as noughts and crosses, is a classic two-player strategy game played on a 3x3 grid.  
+The objective of the game is to achieve a winning pattern, traditionally three of the player's symbols in a  
+row – either horizontally, vertically, or diagonally – before the opponent does. 
+ 
+The game begins with an empty grid, and players take turns placing their symbols, typically "X" for one player  
+and "O" for the other, in unoccupied cells. The simplicity of the game rules allows for quick and easy  
+gameplay, making it accessible for players of all ages. 
+ 
+Tic-Tac-Toe is often used as a teaching tool for basic game theory and strategy, as it involves critical thinking  
+and foresight. Due to its straightforward nature, the game usually ends in a win for one player, a draw  
+(often referred to as a "cat's game"), or sometimes an unfinished game if players fail to make optimal moves. 
+ 
+While Tic-Tac-Toe may seem elementary, its enduring popularity lies in its ability to entertain and  
+challenge players in a concise and easily understandable format. Whether played on paper, a physical board,  
+or through digital platforms, Tic-Tac-Toe remains a timeless and fundamental game in the world of strategy  
+and competition. 
