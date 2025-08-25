@@ -1,0 +1,17 @@
+3. Seven Puzzle: 
+The 7 Puzzle is a challenging and intellectually stimulating game that involves arranging seven geometric 
+pieces to fit into a specific shape or area, often a square or rectangle. Also known as the "Seven Pieces 
+Tangram" or simply "Seven Puzzle," it has its roots in ancient Chinese puzzle traditions. 
+ 
+The seven pieces, or tans, consist of various shapes such as triangles, a square, and a parallelogram. The 
+objective of the game is to rearrange these pieces to form a larger predefined shape without any overlaps. The 
+challenge lies in figuring out the correct orientation and placement of each tan to complete the puzzle. 
+ 
+The 7 Puzzle encourages spatial reasoning, problem-solving skills, and creative thinking. It is not only an 
+engaging solo activity but also serves as an educational tool for enhancing geometry and pattern recognition 
+skills, making it popular in educational settings. 
+ 
+This timeless puzzle has been adapted into various forms, from physical wooden pieces to digital versions 
+available on electronic devices. Its enduring appeal can be attributed to the blend of simplicity and complexity, 
+offering a rewarding experience for players of all ages who enjoy a mental challenge and the satisfaction of 
+solving spatial puzzles. 
